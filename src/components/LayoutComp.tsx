@@ -6,7 +6,7 @@ import Sidebar from "./Sidebar";
   return (
     <>
       
-      <main className="grid md:grid-cols-[max-content_1fr] md:gap-x-4">
+      <main className="grid md:grid-cols-[max-content_1fr] md:gap-x-4 md:p-6">
         <Sidebar/>
         <Outlet />
       </main>

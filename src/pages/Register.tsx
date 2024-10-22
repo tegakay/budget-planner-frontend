@@ -18,7 +18,7 @@ const Register = () => {
 
         <input  type="password" placeholder="Confirm Password" name=""  className="my-2 border border-2 shadow p-3 rounded-lg" />
 
-        <button className=" my-2 inline-flex justify-center  shadow p-3 rounded-lg border border-2 bg-blue-600 text-white text-lg">Register</button>
+        <button className=" my-2 inline-flex justify-center  shadow p-3 rounded-lg border border-2 bg-blue-600 text-white text-lg font-bold">Register</button>
         </form>
     </div>
   )

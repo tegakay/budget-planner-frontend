@@ -19,11 +19,11 @@ const Login = () => {
 
       <div className="w-full md:max-w-sm">
         <div className="grid gap-2 ">
-          <button className="  text-sm my-2 inline-flex justify-center items-center shadow p-3 rounded-lg border border-2 font-bold text-gray-800">
+          <button className="  text-sm my-2 inline-flex justify-center items-center shadow p-3 rounded-lg border border-2 font-semibold text-gray-800">
             {" "}
             <FaGoogle /> <span className="ml-2">Login with Google</span>{" "}
           </button>
-          <button className=" text-sm my-2 inline-flex justify-center  items-center shadow p-3 rounded-lg border border-2 font-bold bg-blue-400 text-white">
+          <button className=" text-sm my-2 inline-flex justify-center  items-center shadow p-3 rounded-lg border border-2 font-semibold bg-blue-400 text-white">
             {" "}
             <FaFacebookF />
             <span className="ml-2 ">Login with Facebook</span>
@@ -40,7 +40,7 @@ const Login = () => {
                     <p className="text-xs"><input type="checkbox" name=""  /> Remember me?</p>
                     <a href="#" rel="noopener noreferrer" className="text-red-700 text-xs">Forgot Password</a>
                 </div>
-                <button className=" my-2 inline-flex justify-center  shadow p-3 rounded-lg border border-2 bg-blue-600 text-white text-lg">Log in</button>
+                <button className=" my-2 inline-flex font-bold justify-center  shadow p-3 rounded-lg border border-2 bg-blue-600 text-white text-lg">Log in</button>
             </form>
 
             <p className="text-sm">Dont have an account? <span>Register</span></p>

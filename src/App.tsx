@@ -9,6 +9,9 @@ import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import LayoutComp from "./components/LayoutComp";
+import Settings from "./pages/Settings";
+import Budget from "./pages/Budget";
+import Plan from "./pages/Plan";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,6 +21,9 @@ const router = createBrowserRouter(
 
       <Route path="Dashboard" element={<LayoutComp />} >
       <Route index element={<Dashboard />} />
+      <Route path="settings" element={<Settings/>} />
+      <Route path="budget" element={<Budget/>} />
+      <Route path="plan" element={<Plan/>} />
       </Route>
     </Route>
   )
