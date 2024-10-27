@@ -6,15 +6,15 @@ import { IoIosHelpCircleOutline } from "react-icons/io";
 
 const Sidebar = () => {
   return (
-    <div  className="">
+    <div  className=" flex md:flex-col justify-between">
         <h1 className="my-3">Main Logo</h1>
-        {/* <p className="flex items-center py-2 my-1 text-sm"> <span className="mr-3 " ><MdDashboard size={28} /></span> Dashboard</p> */}
-        <p className="flex items-center py-2 my-1 text-sm"> <span className="mr-3 "><GrTransaction size={28} /></span> Transaction</p>
-        <p className="flex items-center py-2 my-1 text-sm"> <span className="mr-3 "><FcPlanner size={28} /></span> Plan</p>
-        <p className="flex items-center py-2 my-1 text-sm"> <span className="mr-3 "><MdAttachMoney size={28} /></span> Budget</p>
-        <p>-------------------</p>
-        <p className="flex items-center py-2 my-1 text-sm"> <span className="mr-3 "><IoSettingsOutline size={28} /></span> Settings</p>
-        <p className="flex items-center py-2 my-1 text-sm"> <span className="mr-3 "><IoIosHelpCircleOutline size={28} /></span>Help</p>
+        <p className="flex items-center py-2 my-1 text-xs"> <span className="mr-3 hidden md:block " ><MdDashboard size={28} /></span> Overview</p>
+        <p className="flex items-center py-2 my-1 text-xs hidden md:flex"> <span className="mr-3 "><GrTransaction size={28} /></span> Add Transactions</p>
+        <p className="flex items-center py-2 my-1 text-xs"> <span className="mr-3 hidden md:block "><FcPlanner size={28} /></span> Transactions</p>
+        <p className="flex items-center py-2 my-1 text-xs"> <span className="mr-3 hidden md:block "><MdAttachMoney size={28} /></span>Configure Budget</p>
+        <p className="hidden md:block">-------------------</p>
+        <p className="flex items-center py-2 my-1 text-xs"> <span className="mr-3 hidden md:block "><IoSettingsOutline size={28} /></span> Settings</p>
+        <p className="flex items-center py-2 my-1 text-xs"> <span className="mr-3 hidden md:block "><IoIosHelpCircleOutline size={28} /></span>Help</p>
     </div>
   )
 }

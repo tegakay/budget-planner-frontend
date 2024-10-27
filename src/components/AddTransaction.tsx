@@ -5,9 +5,9 @@ const AddTransaction = () => {
     <div>
       <h2>Add A Transaction</h2>
 
-      <form>
-        <label htmlFor="Type">Type:</label>
-        <select id="Type" name="Type">
+      <form className="grid">
+        <label htmlFor="Type" className="text-xs">Type:</label>
+        <select id="Type" name="Type" className="my-2 border border-2 shadow p-3 rounded-lg">
           <option value="Income">Income</option>
           <option value="Expense">Expense</option>
         </select>
@@ -23,8 +23,8 @@ const AddTransaction = () => {
           className="my-2 border border-2 shadow p-3 rounded-lg"
         />
 
-        <label htmlFor="category">Category:</label>
-        <select id="category" name="category">
+        <label htmlFor="category" className="text-xs">Category:</label>
+        <select id="category" name="category" className="my-2 border border-2 shadow p-3 rounded-lg">
           <option value="Work">Work</option>
           <option value="Play">Play</option>
         </select>

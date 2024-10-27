@@ -4,9 +4,9 @@ import { FaArrowTrendUp } from "react-icons/fa6";
 
 const Card = () => {
   return (
-    <div className=' shadow-md rounded-lg py-2 px-6'>
-        <h1 className='flex  items-center gap-1 text-base'> <MdPaid size={20} />Spent Today </h1>
-        <p className='text-2xl flex items-center gap-4 font-bold font-black'><span>#480.00</span>  <FaArrowTrendUp /></p> 
+    <div className=' shadow-md rounded-lg py-2 px-6 backdrop-blur-lg max-w-max'>
+        <h1 className='flex  items-center gap-1 text-xs'> <MdPaid size={12} />Spent Today </h1>
+        <p className='text-base flex items-center gap-4 font-bold font-black'><span>#480.00</span>  <FaArrowTrendUp /></p> 
     </div>
   )
 }

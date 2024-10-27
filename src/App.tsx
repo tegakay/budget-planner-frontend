@@ -12,6 +12,7 @@ import LayoutComp from "./components/LayoutComp";
 import Settings from "./pages/Settings";
 import Budget from "./pages/Budget";
 import Plan from "./pages/Plan";
+import AddTransaction from "./components/AddTransaction";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,7 +24,8 @@ const router = createBrowserRouter(
       <Route index element={<Dashboard />} />
       <Route path="settings" element={<Settings/>} />
       <Route path="budget" element={<Budget/>} />
-      <Route path="plan" element={<Plan/>} />
+      {/* <Route path="plan" element={<Plan/>} /> */}
+      <Route path="add" element={<AddTransaction/>} />
       </Route>
     </Route>
   )

@@ -7,7 +7,7 @@ import Sidebar from "./Sidebar";
     <>
       
       <main className="grid md:grid-cols-[max-content_1fr] md:gap-x-4 md:p-6">
-        <Sidebar/>
+        <div className="sticky top-0 z-10"><Sidebar/></div>
         <Outlet />
       </main>
       
